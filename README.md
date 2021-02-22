@@ -1,4 +1,4 @@
-# Node_NLW04
+# Node_NLW04 :rocket:	
 This repository contains the Node project made by me on rocketseat's NLW 04, with concepts from RestFull API, database and html / css frontend
 
 ## Comands to create a API from scratch
