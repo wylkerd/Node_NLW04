@@ -33,3 +33,19 @@ yarn add ts-node-dev -D
 ```
 yarn dev
 ```
+- Database usage: bank driver, query builders or Orm (TypeORM for Node)
+
+-creating migrations: 
+```
+yarn typeorm migration:create -n CreateUsers
+```
+run migation or rollback: 
+```
+yarn typeorm migration:run
+yarn typeorm migration:revert
+```
+uuid generator and types uuid: 
+```
+yarn add uuid
+yarn add @ types / uuid -D
+```
