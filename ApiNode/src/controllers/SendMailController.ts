@@ -5,6 +5,7 @@ import { SurveysUsersRepository } from "../repositories/SurveysUsersRepository";
 import { SurveyUser } from "../models/SurveyUser";
 import SendMailService from "../services/SendMailService";
 import { resolve } from 'path';
+import { Request, Response } from "express"
 
 class SendMailController {
     async execute(request: Request, response: Response) {
